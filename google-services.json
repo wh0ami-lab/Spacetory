@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "678221057933",
+    "firebase_url": "https://spacetory-2269a.firebaseio.com",
+    "project_id": "spacetory-2269a",
+    "storage_bucket": "spacetory-2269a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678221057933:android:6309094b2990d339",
+        "android_client_info": {
+          "package_name": "chat.tox.spacetory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678221057933-k5lj6js35vpn0f35j008g688c972rikb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoUrxiucMraz5F0uBzqswYzxSyC7EjwI4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
