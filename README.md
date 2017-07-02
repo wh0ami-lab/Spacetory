@@ -1,5 +1,6 @@
 ### Spacetory
-
+---
+Travis CI: <img src="https://travis-ci.org/wh0ami-lab/Spacetory.svg" />
 ---
 
 Spacetory is an Android 4+ client for Tox created by [Mark Winter](https://github.com/Astonex) and [Misha Marinenko(wh0ami)](https://github.com/misha-marinenko). It aims to bring the full multimedia support Tox offers to your device, although it's still currently in heavy development.
