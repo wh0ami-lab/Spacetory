@@ -1,4 +1,4 @@
-package chat.tox.antox.activities
+package chat.tox.spacetory.activities
 
 import java.util
 
@@ -14,14 +14,14 @@ import android.view.inputmethod.EditorInfo
 import android.view.{KeyEvent, Menu, MenuItem, View}
 import android.widget.TextView.OnEditorActionListener
 import android.widget.{EditText, TextView}
-import chat.tox.antox._
-import chat.tox.antox.adapters.ChatMessagesAdapter
-import chat.tox.antox.data.State
-import chat.tox.antox.theme.ThemeManager
-import chat.tox.antox.utils.StringExtensions.RichString
-import chat.tox.antox.utils.ViewExtensions.RichView
-import chat.tox.antox.utils.{AntoxLog, Constants, KeyboardOptions, Location}
-import chat.tox.antox.wrapper.{ContactKey, Message, MessageType}
+import chat.tox.spacetory._
+import chat.tox.spacetory.adapters.ChatMessagesAdapter
+import chat.tox.spacetory.data.State
+import chat.tox.spacetory.theme.ThemeManager
+import chat.tox.spacetory.utils.StringExtensions.RichString
+import chat.tox.spacetory.utils.ViewExtensions.RichView
+import chat.tox.spacetory.utils.{AntoxLog, Constants, KeyboardOptions, Location}
+import chat.tox.spacetory.wrapper.{ContactKey, Message, MessageType}
 import im.tox.tox4j.core.enums.ToxMessageType
 import jp.wasabeef.recyclerview.animators.LandingAnimator
 import rx.lang.scala.schedulers.{AndroidMainThreadScheduler, IOScheduler}
@@ -154,7 +154,7 @@ abstract class GenericChatActivity[KeyType <: ContactKey] extends AppCompatActiv
         }
 
         val targetPos = fastScroller.translatedChildPosition(Util.clamp((proportion * itemCount.asInstanceOf[Float]).asInstanceOf[Int], 0, itemCount - 1))
-        scrollDateHeader.setText(recyclerView.getAdapter().asInstanceOf[chat.tox.antox.adapters.ChatMessagesAdapter].getBubbleText(targetPos))
+        scrollDateHeader.setText(recyclerView.getAdapter().asInstanceOf[chat.tox.spacetory.adapters.ChatMessagesAdapter].getBubbleText(targetPos))
       }
 
       override def onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {

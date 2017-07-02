@@ -1,4 +1,4 @@
-package chat.tox.antox.activities
+package chat.tox.spacetory.activities
 
 import android.content.Context
 import android.os.Bundle
@@ -6,9 +6,9 @@ import android.support.v7.app.AppCompatActivity
 import android.view.{LayoutInflater, MenuItem, View, ViewGroup}
 import android.widget.AdapterView.OnItemClickListener
 import android.widget._
-import chat.tox.antox.R
-import chat.tox.antox.data.State
-import chat.tox.antox.wrapper.CallReply
+import chat.tox.spacetory.R
+import chat.tox.spacetory.data.State
+import chat.tox.spacetory.wrapper.CallReply
 import rx.lang.scala.Subscription
 
 import scala.collection.JavaConversions._

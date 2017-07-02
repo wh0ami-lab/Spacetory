@@ -1,4 +1,4 @@
-package chat.tox.antox.activities
+package chat.tox.spacetory.activities
 
 import java.io.File
 import java.util.regex.Pattern
@@ -14,15 +14,15 @@ import android.support.v7.app.{AlertDialog, AppCompatActivity}
 import android.text._
 import android.view._
 import android.widget._
-import chat.tox.antox.R
-import chat.tox.antox.data.{State, UserDB}
-import chat.tox.antox.theme.ThemeManager
-import chat.tox.antox.tox.{ToxDataFile, ToxService}
-import chat.tox.antox.toxme.ToxMe.PrivacyLevel
-import chat.tox.antox.toxme.ToxMeError.ToxMeError
-import chat.tox.antox.toxme.{ToxData, ToxMe, ToxMeError, ToxMeName}
-import chat.tox.antox.utils._
-import chat.tox.antox.wrapper.ToxAddress
+import chat.tox.spacetory.R
+import chat.tox.spacetory.data.{State, UserDB}
+import chat.tox.spacetory.theme.ThemeManager
+import chat.tox.spacetory.tox.{ToxDataFile, ToxService}
+import chat.tox.spacetory.toxme.ToxMe.PrivacyLevel
+import chat.tox.spacetory.toxme.ToxMeError.ToxMeError
+import chat.tox.spacetory.toxme.{ToxData, ToxMe, ToxMeError, ToxMeName}
+import chat.tox.spacetory.utils._
+import chat.tox.spacetory.wrapper.ToxAddress
 import com.github.angads25.filepicker.controller.DialogSelectionListener
 import com.github.angads25.filepicker.model.{DialogConfigs, DialogProperties}
 import com.github.angads25.filepicker.view.FilePickerDialog

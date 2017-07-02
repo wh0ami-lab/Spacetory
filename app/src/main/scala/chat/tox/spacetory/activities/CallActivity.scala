@@ -1,4 +1,4 @@
-package chat.tox.antox.activities
+package chat.tox.spacetory.activities
 
 import android.content.Intent
 import android.content.pm.ActivityInfo
@@ -7,14 +7,14 @@ import android.os.{Build, Bundle}
 import android.support.v4.app.FragmentActivity
 import android.view.{View, ViewAnimationUtils, ViewTreeObserver, WindowManager}
 import android.widget.FrameLayout
-import chat.tox.antox.R
-import chat.tox.antox.av.Call
-import chat.tox.antox.data.State
-import chat.tox.antox.fragments.{ActiveCallFragment, IncomingCallFragment}
-import chat.tox.antox.tox.MessageHelper
-import chat.tox.antox.utils.ObservableExtensions.RichObservable
-import chat.tox.antox.utils._
-import chat.tox.antox.wrapper._
+import chat.tox.spacetory.R
+import chat.tox.spacetory.av.Call
+import chat.tox.spacetory.data.State
+import chat.tox.spacetory.fragments.{ActiveCallFragment, IncomingCallFragment}
+import chat.tox.spacetory.tox.MessageHelper
+import chat.tox.spacetory.utils.ObservableExtensions.RichObservable
+import chat.tox.spacetory.utils._
+import chat.tox.spacetory.wrapper._
 import im.tox.tox4j.core.enums.ToxMessageType
 import rx.lang.scala.schedulers.AndroidMainThreadScheduler
 import rx.lang.scala.subscriptions.CompositeSubscription

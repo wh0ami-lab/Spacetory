@@ -1,4 +1,4 @@
-package chat.tox.antox.activities
+package chat.tox.spacetory.activities
 
 import java.io.{File, IOException}
 import java.text.SimpleDateFormat
@@ -13,15 +13,15 @@ import android.support.v4.content.CursorLoader
 import android.view.View
 import android.view.View.OnClickListener
 import android.widget._
-import chat.tox.antox.R
-import chat.tox.antox.av.{Call, CameraUtils}
-import chat.tox.antox.data.State
-import chat.tox.antox.theme.ThemeManager
-import chat.tox.antox.tox.{MessageHelper, ToxSingleton}
-import chat.tox.antox.utils.StringExtensions.RichString
-import chat.tox.antox.utils.ViewExtensions.RichView
-import chat.tox.antox.utils._
-import chat.tox.antox.wrapper._
+import chat.tox.spacetory.R
+import chat.tox.spacetory.av.{Call, CameraUtils}
+import chat.tox.spacetory.data.State
+import chat.tox.spacetory.theme.ThemeManager
+import chat.tox.spacetory.tox.{MessageHelper, ToxSingleton}
+import chat.tox.spacetory.utils.StringExtensions.RichString
+import chat.tox.spacetory.utils.ViewExtensions.RichView
+import chat.tox.spacetory.utils._
+import chat.tox.spacetory.wrapper._
 import com.github.angads25.filepicker.controller.DialogSelectionListener
 import com.github.angads25.filepicker.model.{DialogConfigs, DialogProperties}
 import com.github.angads25.filepicker.view.FilePickerDialog

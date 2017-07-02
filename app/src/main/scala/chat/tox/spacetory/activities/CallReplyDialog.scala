@@ -1,4 +1,4 @@
-package chat.tox.antox.activities
+package chat.tox.spacetory.activities
 
 import android.app.{Activity, Dialog}
 import android.content.DialogInterface
@@ -6,8 +6,8 @@ import android.content.DialogInterface.OnClickListener
 import android.os.Bundle
 import android.support.v4.app.DialogFragment
 import android.support.v7.app.AlertDialog
-import chat.tox.antox.R
-import chat.tox.antox.data.State
+import chat.tox.spacetory.R
+import chat.tox.spacetory.data.State
 
 trait CallReplySelectedListener {
 

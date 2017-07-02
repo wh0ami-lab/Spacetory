@@ -1,4 +1,4 @@
-package chat.tox.antox.activities
+package chat.tox.spacetory.activities
 
 import java.util.regex.Pattern
 
@@ -7,8 +7,8 @@ import android.support.v7.app.AppCompatActivity
 import android.text.util.Linkify
 import android.view.MenuItem
 import android.widget.TextView
-import chat.tox.antox.R
-import chat.tox.antox.theme.ThemeManager
+import chat.tox.spacetory.R
+import chat.tox.spacetory.theme.ThemeManager
 
 class AboutActivity extends AppCompatActivity {
 

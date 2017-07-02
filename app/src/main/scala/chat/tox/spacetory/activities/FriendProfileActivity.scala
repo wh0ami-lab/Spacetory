@@ -1,5 +1,5 @@
 
-package chat.tox.antox.activities
+package chat.tox.spacetory.activities
 
 import java.io.File
 
@@ -12,11 +12,11 @@ import android.support.v7.app.AppCompatActivity
 import android.text.{Editable, TextWatcher}
 import android.view.View
 import android.widget.{EditText, TextView}
-import chat.tox.antox.R
-import chat.tox.antox.data.State
-import chat.tox.antox.theme.ThemeManager
-import chat.tox.antox.utils.BitmapManager
-import chat.tox.antox.wrapper.FriendKey
+import chat.tox.spacetory.R
+import chat.tox.spacetory.data.State
+import chat.tox.spacetory.theme.ThemeManager
+import chat.tox.spacetory.utils.BitmapManager
+import chat.tox.spacetory.wrapper.FriendKey
 import de.hdodenhof.circleimageview.CircleImageView
 
 class FriendProfileActivity extends AppCompatActivity {
